@@ -7,6 +7,22 @@ Face Mask Detection using CNN is a deep learning–based computer vision project
 ## Motivation
 Amid the ongoing COVID-19 pandemic, there are no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. The absence of large datasets of ‘with_mask’ images has made this task cumbersome and challenging. 
 
+## ⚙️ How It Works
+
+- Dataset Preparation:
+The dataset is divided into two categories — with_mask and without_mask.
+
+- Model Training:
+A CNN model (built using TensorFlow/Keras) is trained to learn distinguishing facial features between masked and unmasked faces.
+
+- Detection Phase:
+
+The model takes live video or image input.
+
+Detects faces using OpenCV’s Haar cascades or DNN-based face detection.
+
+Classifies each detected face as “Mask” or “No Mask.”
+
 ## Prerequisites
 Install the following before starting:
 - Python 3.x
